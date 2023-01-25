@@ -33,6 +33,19 @@ table {
 a {
     text-decoration: none;
 }
+input {
+	all: unset;
+}
+
+element {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
 /* RESET */
 
 /* VARIAVEIS */
@@ -75,12 +88,23 @@ p{
 	font-family: var(--font-normal);
 }
 
-.button img, .button button{
+
+
+.enter-info {
 	position: absolute;
+	padding: 5px;
+
+	height: 150px;
+	width: 250px;
+
+	border-radius: 10px;
+	border: var(--border-button);
+	background-color: var(--gray-);
+	color: var(--purple);
+
 }
 
-.button button{
-	border-radius: 10px;
+.enter-info .button button{
 	padding: 5px;
 	font-family: var(--font-link);
 	font-size: var(--size-big);
@@ -90,13 +114,77 @@ p{
 	border-bottom: var(--border-button);
 	border-top: var(--border-button);
 	border-right: var(--border-button);
+	border-radius: 10px;
 
 	background-color: var(--cream);
 	color: var(--purple);
+
+	cursor: pointer;
+	left: 80px;
 }
-.button button:hover{
+.enter-info .button button:hover{
 	background-color: var(--cream);
-	color: var(--purple);
+	color: var(--black);
+}
+
+.enter-info .button img,
+ .enter-info .button button{
+	position: absolute;
+	top: 110px;
+	left: 30px;
+}
+
+.enter-info .button img{
+	left: 40px;
+}
+
+
+/* main .homepage-showcase .button *{
+	top: 450px;
+	left: 600px;
+	height: 45px;
+
+}
+main .homepage-showcase .button img{
+	left: 568px;
+} */
+
+.enter-info 
+input[type=text], input[type=password]{
+	position: absolute;
+	left: 80px;
+
+	padding: 5px;
+
+	width: 150px;
+	height: 10px;
+	border-radius: 10px;
+	border: var(--border-button);
+
+	font-family: var(--font-link);
+	font-size: var(--size-normal);
+}
+
+.enter-info 
+input[type=text], 
+.enter-info label.name{
+	top: 20px;
+}
+
+.enter-info 
+input[type=password],
+.enter-info label.pswd{
+	top: 30px;
+	margin-top: 20px;
+}
+
+.enter-info label{
+	position: absolute;
+	left: 10px;
+
+	font-size: var(--size-normal);
+	font-family: var(--font-normal);
+	font-weight: 600;
 }
 
 
@@ -168,15 +256,20 @@ main .homepage-showcase p{
 
 }
 
-main .homepage-showcase .button *{
-	top: 500px;
-	left: 1000px;
+/* main .homepage-showcase .button *{
+	top: 450px;
+	left: 600px;
 	height: 45px;
 
 }
 main .homepage-showcase .button img{
-	left: 968px;
+	left: 568px;
 }
+
+main .homepage-showcase .enter-info{
+	left: 550px;
+	top: 350px;
+}  */
 
 
 main .party-content{
