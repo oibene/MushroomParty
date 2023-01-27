@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mushroom Party</title>
+<!-- CSS -> ESTILOS PARA A PAGINA E FONTES-->
 
-    <!-- CSS -> ESTILOS PARA A PAGINA E FONTES-->
-    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&family=Fredoka+One&family=Rowdies:wght@400;700&family=Merienda:wght@600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&family=Fredoka+One&family=Rowdies:wght@400;700&family=Merienda:wght@600;700;800&display=swap" rel="stylesheet">
 
-</head>
 <body>
-                    <!--HEADER -> GERALMENTE POSSUI LINKS E LOGOS-->
     <header>
         <div class="logo">
             <img src="https://img.icons8.com/external-basicons-solid-edtgraphics/50/A89F68/external-Mushrooms-vegetables-basicons-solid-edtgraphics-2.png"/>
@@ -29,13 +19,13 @@
 
         </div>
     </header>
-    
+
                     <!--MAIN -> CONTEM A MAIOR PARTE DA INFORMAÇÃO-->
     <main>
         <div class="homepage-showcase">
-            <img src="/front/images/showcase-foto.png" alt="">
+            <img src="./showcase-foto.png" alt="">
             <p>
-                Welcome to 
+                Welcome to
                 <br>&nbsp &nbsp &nbsp &nbsp Mushroom Party
             </p>
 
@@ -45,29 +35,29 @@
                 <div class="enter-info">
                     <label class="name" for="name">Login</label>
                     <input type="text" name="name" id="name">
-                    
+
                     <label class="pswd" for="pswd">Senha</label>
                     <input type="password" name="pswd" id="pswd">
-                    
+
                     <div class="button">
                         <button> Cadastre-se</button>
-                        <img src="https://img.icons8.com/external-glyph-mangsaabguru-/64/999ac2/external-autumn-autumn-glyph-glyph-mangsaabguru--17.png""/>
+                        <img src="https://img.icons8.com/external-glyph-mangsaabguru-/64/999ac2/external-autumn-autumn-glyph-glyph-mangsaabguru--17.png"/>
                     </div>
                 </div>
-                
 
 
-                
+
+
             </form>
-            
-            
+
+
         </div>
 
         <div class="party-content">
             <img src="/front/images/content-foto.png" alt="">
         </div>
 
-        
+
 
     </main>
                     <!--FOOTER -> POSSUI INFOS DE CONTATO OU OUTROS LINKS-->
@@ -76,4 +66,5 @@
     </footer>
 
 </body>
-</html>
+
+<router-outlet></router-outlet>
