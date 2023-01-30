@@ -1,58 +1,13 @@
 <!-- CSS -> ESTILOS PARA A PAGINA E FONTES-->
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&family=Fredoka+One&family=Rowdies:wght@400;700&family=Merienda:wght@600;700;800&display=swap" rel="stylesheet">
 
-
 <body>
-    <header>
-        <div class="logo">
-            <img src="https://img.icons8.com/external-basicons-solid-edtgraphics/50/A89F68/external-Mushrooms-vegetables-basicons-solid-edtgraphics-2.png"/>
-            <p>MushRoom Party</p>
-        </div>
 
-        <div class="links">
-            <a href="#">home</a>
-            <a href="#">blabla</a>
-            <a href="#">contato</a>
-
-        </div>
-    </header>
-
-                    <!--MAIN -> CONTEM A MAIOR PARTE DA INFORMAÇÃO-->
+  <app-header></app-header>
     <main>
-        <div class="homepage-showcase">
-            <img src="./showcase-foto.png" alt="">
-            <p>
-                Welcome to
-                <br>&nbsp &nbsp &nbsp &nbsp Mushroom Party
-            </p>
-
-
-            <form action="#" class="login"> <!-- Tela de login-->
-
-                <div class="enter-info">
-                    <label class="name" for="name">Login</label>
-                    <input type="text" name="name" id="name">
-
-                    <label class="pswd" for="pswd">Senha</label>
-                    <input type="password" name="pswd" id="pswd">
-
-                    <div class="button">
-                        <button> Cadastre-se</button>
-                        <img src="https://img.icons8.com/external-glyph-mangsaabguru-/64/999ac2/external-autumn-autumn-glyph-glyph-mangsaabguru--17.png"/>
-                    </div>
-                </div>
-
-
-
-
-            </form>
-
-
-        </div>
-
+      <app-showcase></app-showcase>
         <div class="party-content">
             <img src="/front/images/content-foto.png" alt="">
         </div>
@@ -60,11 +15,7 @@
 
 
     </main>
-                    <!--FOOTER -> POSSUI INFOS DE CONTATO OU OUTROS LINKS-->
-    <footer>
-
-    </footer>
 
 </body>
 
-<router-outlet></router-outlet>
+<!-- <router-outlet></router-outlet> -->

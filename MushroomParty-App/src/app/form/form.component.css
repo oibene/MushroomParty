@@ -1,0 +1,75 @@
+/* RESET */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+input {
+	all: unset;
+}
+
+element {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.enter-info {
+	position: absolute;
+	padding: 5px;
+
+	height: 150px;
+	width: 250px;
+
+	border-radius: 10px;
+	border: solid 2px #999ac2;
+	background-color: #F5FDC6;
+	color: #999ac2;
+
+}
+
+.enter-info
+input[type=text], input[type=password]{
+	position: absolute;
+	left: 80px;
+
+	padding: 5px;
+
+	width: 150px;
+	height: 10px;
+	border-radius: 10px;
+	border: solid 2px #999ac2;
+
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+}
+
+.enter-info
+input[type=text],
+.enter-info label.name{
+	top: 20px;
+}
+
+.enter-info
+input[type=password],
+.enter-info label.pswd{
+	top: 30px;
+	margin-top: 20px;
+}
+
+.enter-info label{
+	position: absolute;
+	left: 10px;
+
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+}
+

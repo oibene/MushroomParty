@@ -73,203 +73,20 @@ element {
 	--size-normal: 16px;
 	--size-big: 20px;
 	--size-extra-big: 50px;
-	--border-normal: solid 1px var(--gray-brown);
 	--border-button: solid 2px var(--purple);
 }
 /* VARIAVEIS */
 
 /* BODY */
 body{
-    background-color: var(--cream);
+    background-color: #F5FDC6;
 }
 
 p{
-	font-size: var(--size-normal);
-	font-family: var(--font-normal);
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
-.enter-info {
-	position: absolute;
-	padding: 5px;
-
-	height: 150px;
-	width: 250px;
-
-	border-radius: 10px;
-	border: var(--border-button);
-	background-color: var(--gray-);
-	color: var(--purple);
-
-}
-
-.enter-info .button button{
-	padding: 5px;
-	font-family: var(--font-link);
-	font-size: var(--size-big);
-	font-weight: 800;
-
-	/*todas menos do lado do cogumelo*/
-	border-bottom: var(--border-button);
-	border-top: var(--border-button);
-	border-right: var(--border-button);
-	border-radius: 10px;
-
-	background-color: var(--cream);
-	color: var(--purple);
-
-	cursor: pointer;
-	left: 80px;
-}
-.enter-info .button button:hover{
-	background-color: var(--cream);
-	color: var(--black);
-}
-
-.enter-info .button img,
- .enter-info .button button{
-	position: absolute;
-	top: 110px;
-	left: 30px;
-}
-
-.enter-info .button img{
-	left: 40px;
-}
-
-
-/* main .homepage-showcase .button *{
-	top: 450px;
-	left: 600px;
-	height: 45px;
-
-}
-main .homepage-showcase .button img{
-	left: 568px;
-} */
-
-.enter-info
-input[type=text], input[type=password]{
-	position: absolute;
-	left: 80px;
-
-	padding: 5px;
-
-	width: 150px;
-	height: 10px;
-	border-radius: 10px;
-	border: var(--border-button);
-
-	font-family: var(--font-link);
-	font-size: var(--size-normal);
-}
-
-.enter-info
-input[type=text],
-.enter-info label.name{
-	top: 20px;
-}
-
-.enter-info
-input[type=password],
-.enter-info label.pswd{
-	top: 30px;
-	margin-top: 20px;
-}
-
-.enter-info label{
-	position: absolute;
-	left: 10px;
-
-	font-size: var(--size-normal);
-	font-family: var(--font-normal);
-	font-weight: 600;
-}
-
-
-/* BODY */
-
-/* HEADER */
-header{
-    height: 60px;
-    border-bottom: var(--border-normal);
-}
-
-header .logo img{
-	width: 40px;
-	position: absolute;
-	left: 20px;
-	top: 10px;
-}
-
-header .logo p{
-	position: absolute;
-	top: 20px;
-	left: 70px;
-
-	font-size: var(--size-big);
-	font-family: var(--font-title);
-
-	color: var(--gray-brown);
-}
-
-header .links{
-	font-size: var(--size-small);
-	position: absolute;
-	right: 20px;
-	top: 20px;
-}
-
-header .links a{
-	color: var(--gray-brown);
-	padding-left: 5px;
-	font-family: var(--font-link);
-	font-weight: 600;
-}
-header .links a:hover{
-	color: var(--purple);
-}
-/* HEADER */
-
-
-/* MAIN */
-main .homepage-showcase img{
-	position: absolute;
-	top: 185px;
-	left: 10px;
-
-	height: 450px;
-}
-
-main .homepage-showcase p{
-	position: absolute;
-	top: 179px;
-	left: 250px;
-
-	color: var(--purple);
-	padding-left: 5px;
-	font-family: var(--font-cursive);
-	font-size: var(--size-extra-big);
-
-	font-weight: 800;
-
-}
-
-/* main .homepage-showcase .button *{
-	top: 450px;
-	left: 600px;
-	height: 45px;
-
-}
-main .homepage-showcase .button img{
-	left: 568px;
-}
-
-main .homepage-showcase .enter-info{
-	left: 550px;
-	top: 350px;
-}  */
 
 
 main .party-content{
@@ -283,6 +100,10 @@ main .party-content img{
 	background-color: var(--black);
 	width: 843px;
 
+}
+
+app-showcase{
+  position: absolute;
 }
 
 
